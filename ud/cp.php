@@ -52,6 +52,7 @@ function RequestPasswordChange()
 				else
 				{
 					alert('Password changed!\nYou will be redirected to login page.');
+					window.location.href = "/ud/";
 					window.location.reload();
 				}
 			}
