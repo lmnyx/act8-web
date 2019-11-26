@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css');
+*
+{
+	font-family: 'Montserrat', sans-serif;
+	/* 500, 600, 700, 800 */
+	font-weight: 500;
+	color: white;
+}
+html, body
+{
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	display: none;
+}
+
+.navbar {
+	display: block;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.1s;
+}
+
+.navbar a:hover {
+  color: #FE006C;
+}
+
+.navbar a.active {
+  color: #FE006C;
+}
+
+.navbar .navbar_ico {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.navbar_ico {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .navbar_ico {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.newspaper
+{
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+}
+.news
+{
+	display: block;
+	background-color: #333;
+	border-radius: 15px 15px 0px 0px;
+-moz-border-radius: 15px 15px 0px 0px;
+-webkit-border-radius: 15px 15px 0px 0px;
+margin-top: 12px;
+}
+.news .title
+{
+	display: block;
+	font-size: 21px;
+	background-color: #2b2b2b;
+	padding: 8px;
+	border-radius: 15px 15px 0px 0px;
+-moz-border-radius: 15px 15px 0px 0px;
+-webkit-border-radius: 15px 15px 0px 0px;
+}
+.news .content
+{
+	padding: 6px;
+	width: 99%;
+	word-wrap: break-word;
+}
+.news .image
+{
+	width: 100%;
+	height: 250px;
+}
+.news .additional
+{
+	font-size: 12px;
+	padding: 4px;
+	background-color: #2b2b2b;
+}
+.news .additional .author
+{
+	display: inline-block;
+	color: #FE006C;
+	text-decoration: none;
+}
+._bottominfo
+{
+	text-align: center;
+	display: block;
+	margin: 12px;
+	font-size: 10px;
+	color: #444;
+}
+a.blank
+{
+	color: #3b3b3b;
+	text-decoration: none;
+}
+.pagecontent
+{
+	width: 75%;
+	margin: 32px auto;
+}
+.pagecontent .title
+{
+	font-size: 32px;
+	font-weight: 800;
+}
+ul
+{
+	list-style-type:circle;
+}
+a
+{
+	text-decoration: none;
+}
+*::selection
+{
+	background-color: #FE006C;
+}
+.ud_i
+{
+	border: none;
+	background-color: #333;
+	padding: 6px 12px 6px 12px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 22px 22px 22px 22px;
+	font-size: 14px;
+}
+.fw 
+{
+	width: 100%;
+}
+.logbtn
+{
+	border: none;
+	background-color: #FE006C;
+	padding: 6px 24px 6px 24px;
+	border-radius: 22px 22px 22px 22px;
+	font-size: 14px;
+	margin: 4px;
+	transition: 0.2s;
+}
+.logbtn:hover
+{
+	background-color: #CB0056;
+	transition: 0.2s;
+}
+.logbtn:disabled
+{
+	background-color: #CB0056;
+	color: lightgray;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 17, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 16px;}
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #333; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.title_small
+{
+	background-color: #111;
+	padding: 6px 10px 6px 10px;
+	border-radius: 27px;
+}
+._build
+{
+	background-color: #333;
+	border-radius: 27px;
+	padding: 6px 12px;
+	height: 32px;
+	cursor: pointer;
+	margin-top: 4px;
+}
+._build img
+{
+	width: 32px;
+	height: 32px;
+	float: left;
+	border-radius: 999px;
+}
+._build span
+{
+	float: left;
+	padding: 6px 12px;
+}
+._build button
+{
+	padding: 0 6px;
+	float: right;
+	background-color: #FE006C;
+	border: none;
+	border-radius: 999px;
+	font-size: 21px;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+._user
+{
+	background-color: #333;
+	border-radius: 27px;
+	padding: 6px 12px;
+	height: 32px;
+	cursor: pointer;
+	margin-top: 4px;
+}
+._user img
+{
+	width: 32px;
+	height: 32px;
+	float: left;
+	border-radius: 999px;
+}
+._user span
+{
+	float: left;
+	padding: 6px 12px;
+}
+._user button
+{
+	padding: 0 6px;
+	float: right;
+	background-color: #FE006C;
+	border: none;
+	border-radius: 999px;
+	font-size: 21px;
+}
+.edituser_box
+{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #2e2e2e;
+	width: 450px;
+	border: solid 1px #111;
+}
+.edituser_title
+{
+	background-color: #444;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: 100%;
+}
+.edituser_title span
+{
+	padding-left: 10px;
+}
+.edituser_content
+{
+	padding: 12px;
+}
+select.ud_i option::selected
+{
+	background-color: #FE006C;
+}
+.hidden
+{
+	display: none;
+}
+.blured > *:not(#EditUser)
+{
+	filter: blur(3px);
+	pointer-events: none;
+	user-select: none;
+	opacity: 0.2;
+}
+.bluredv2 > *:not(#AddUser)
+{
+	filter: blur(3px);
+	pointer-events: none;
+	user-select: none;
+	opacity: 0.2;
+}
+.rainbow {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+.huerotator
+{
+	animation: hue 3s linear infinite;
+}
