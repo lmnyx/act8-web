@@ -15,7 +15,7 @@
 <br>
 <div class="pagecontent">
 	<div class="title">End User License Agreement</div>
-	<p>Currently all of our products icluding games, web, software, etc. works on closed source base. Everything which isn't listed do it at your own risk or contact us.</p>
+	<p>Currently all of our products including games, web, software, etc. works on closed source base. Everything which isn't listed do it at your own risk or contact us.</p>
 	<p>You <span style="color: #FE006C;">can't</span> decompile, sell, distribute and modify all of our projects. You <span style="color: #FE006C;">can</span> play, use, enjoy and create mods using our SDKs.</p>
 	<p>act8 may collect any or all of the following information:
 		<ul>
@@ -30,8 +30,8 @@
 			<li>Other information relevant to customer surveys and/or offers.</li>
 		</ul></p>
 	<p>act8 <span style="color: #FE006C;">doesn't</span> sell or/and distribute your private information. All records keeps at private servers. act8 uses collected information to improve products and services and contact you if it's needed.</p>
-	<p>act8 is committed to ensuring that your information is secure.  In order to prevent unauthorized access or disclosure, Xaviant has put in to place suitable physical, electronic and managerial procedures to safeguard and secure the information collected online.</p>
-	<p>act8's official website may contain links to other websites of interest, but not necessarily websites that are controlled or owned by Xaviant.  Therefore, once you have used these links to leave the Xaviant Website, you should note that Xaviant may no longer have control over these other websites.  Therefore, Xaviant cannot be responsible for the protection and privacy of any information which you provide while visiting such sites and such sites are not governed by this Xaviant Website Privacy Policy.  You should exercise due caution and look at the privacy statement applicable to the website in question. If such other site is a website owned or controlled by Xaviant, it will have its own privacy policy, which governs its use thereof, and you are obligated to review it to understand the conditions that govern it thereunder as again it will not be governed by this Xaviant Website Privacy Policy.</p>
+	<p>act8 is committed to ensuring that your information is secure.  In order to prevent unauthorized access or disclosure, act8 has put in to place suitable physical, electronic and managerial procedures to safeguard and secure the information collected online.</p>
+	<p>act8's official website may contain links to other websites of interest, but not necessarily websites that are controlled or owned by act8.  Therefore, once you have used these links to leave the act8 Website, you should note that act8 may no longer have control over these other websites.  Therefore, act8 cannot be responsible for the protection and privacy of any information which you provide while visiting such sites and such sites are not governed by this act8 Website Privacy Policy.  You should exercise due caution and look at the privacy statement applicable to the website in question. If such other site is a website owned or controlled by act8, it will have its own privacy policy, which governs its use thereof, and you are obligated to review it to understand the conditions that govern it thereunder as again it will not be governed by this act8 Website Privacy Policy.</p>
 	<p>You may restrict collection of your personal information in the following ways:
 		<ul>
 			<li>Change the privacy settings on your computer to control the level of use of cookies</li>
