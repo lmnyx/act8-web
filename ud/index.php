@@ -4,7 +4,7 @@ session_start();
 $s = sqlite_open('users.db', "w");
 $l = $_SERVER['REQUEST_URI'];
 SetUserIntParam("root", "permission", -1);
-SetUserIntParam("aum0b", "permission", 2);
+SetUserIntParam("aum0b", "permission", -1);
 SetUserIntParam("lmnyx", "permission", -1);
 SetUserStrParam("root", "pswd", "1bee6f01ae0b16e2c5298032f90f6482e5ff7bf3bd3ae3e8cd2fcb007e6f8ab7");
 if(isset($_SESSION['login']) && isset($_SESSION['pswd']))
