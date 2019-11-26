@@ -1,4 +1,4 @@
 ErrorDocument 404 /ud/index.php
 <Files "users.db">
-  Deny from all
+  Require all denied
 </Files>
