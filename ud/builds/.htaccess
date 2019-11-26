@@ -1,5 +1,4 @@
 ErrorDocument 404 /ud/index.php
-<Files "users.db">  
-  Order Allow, Deny
+<Files "users.db">
   Deny from all
 </Files>
